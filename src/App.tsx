@@ -322,7 +322,7 @@ export default function App() {
           </div>
           <div className="sidebar-foot">
             <span>
-              mewno <small>v0.1.2</small>
+              mewno <small>v0.1.3</small>
             </span>
             <div className="theme-switch">
               <button

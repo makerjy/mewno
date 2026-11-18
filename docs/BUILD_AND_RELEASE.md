@@ -17,7 +17,7 @@ npm run tauri -- dev
 ```sh
 scripts/package.sh
 (cd release && shasum -a 256 -c SHA256SUMS)
-hdiutil verify release/Mewno-0.1.2-macOS-arm64.dmg
+hdiutil verify release/Mewno-0.1.3-macOS-arm64.dmg
 codesign --verify --deep --strict src-tauri/target/release/bundle/macos/Mewno.app
 ```
 
@@ -48,6 +48,6 @@ cargo test --locked --release --manifest-path src-tauri/Cargo.toml real_recordin
 
 ## GitHub Releases
 
-[릴리스 페이지](https://github.com/makerjy/mewno/releases)에서 macOS 설치 이미지와 SHA-256 체크섬을 받을 수 있습니다. v0.1.2에는 Apple Silicon Mac에서 빌드하고 실행을 확인한 프리뷰를 배포했습니다.
+[릴리스 페이지](https://github.com/makerjy/mewno/releases)에서 macOS 설치 이미지와 SHA-256 체크섬을 받을 수 있습니다. v0.1.3에는 Apple Silicon Mac에서 빌드하고 실행을 확인한 프리뷰를 배포했습니다.
 
 GitHub Actions는 Apple Silicon macOS 러너에서 패키징과 Rust 테스트를 수행하고 설치 이미지와 체크섬을 아티팩트로 보관합니다. 새 버전의 태그에서 워크플로를 수동 실행하면 빌드 성공 후 검토용 릴리스 초안을 만듭니다.

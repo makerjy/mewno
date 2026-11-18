@@ -1,14 +1,16 @@
+<img src="src-tauri/icons/icon.png" width="96" height="96" align="right" alt="녹음 노트를 들고 있는 Mewno 고양이 아이콘" />
+
 # Mewno
 
 **강의나 회의를 다시 들을 때, 필요한 문장부터.** Mewno는 녹음과 영상 속 음성을 Mac에서 전사하는 앱입니다. 재생 중인 문장을 따라 읽고, 시간표시를 눌러 원하는 대목을 다시 들으며 전사문을 다듬을 수 있습니다.
 
-[macOS 설치 파일 받기](https://github.com/makerjy/mewno/releases/tag/v0.1.2) · [지원 형식과 실제 시험 결과](docs/TEST_REPORT.md)
+[macOS 설치 파일 받기](https://github.com/makerjy/mewno/releases/tag/v0.1.3) · [지원 형식과 실제 시험 결과](docs/TEST_REPORT.md)
 
 ![Mewno 전사 결과 화면. 상단 재생바 아래에서 현재 문장이 초록색으로 강조되어 있다.](docs/screenshots/transcript-light.jpg)
 
 ## 첫 전사 시작하기
 
-1. **Apple Silicon Mac**에서 릴리스의 `Mewno-0.1.2-macOS-arm64.dmg`를 열고 **Mewno.app**을 **응용 프로그램**으로 옮깁니다.
+1. **Apple Silicon Mac**에서 릴리스의 `Mewno-0.1.3-macOS-arm64.dmg`를 열고 **Mewno.app**을 **응용 프로그램**으로 옮깁니다.
 2. **모델 관리**에서 **Whisper Base**를 다운로드합니다. 처음 모델을 받을 때 인터넷이 필요합니다. 다운로드 후 전사와 편집은 오프라인에서 할 수 있습니다.
 3. **새 전사**에 MP3, M4A, WAV 또는 MP4 파일을 넣고 **전사 시작**을 누릅니다. 여러 파일을 넣으면 순서대로 처리합니다.
 4. **내 기록 → 결과 열기**에서 원본을 들으며 전사문을 편집합니다. **편집본 복사**로 텍스트를 가져가거나 **Markdown 저장**으로 타임스탬프가 포함된 파일을 내보냅니다.
