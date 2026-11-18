@@ -10,6 +10,8 @@
 
 ## 첫 전사 시작하기
 
+![Mewno 새 전사 화면. 파일을 넣고 전사 모델과 언어를 선택할 수 있다.](docs/screenshots/new-transcription-light.png)
+
 1. **Apple Silicon Mac**에서 릴리스의 `Mewno-0.1.3-macOS-arm64.dmg`를 열고 **Mewno.app**을 **응용 프로그램**으로 옮깁니다.
 2. **모델 관리**에서 **Whisper Base**를 다운로드합니다. 처음 모델을 받을 때 인터넷이 필요합니다. 다운로드 후 전사와 편집은 오프라인에서 할 수 있습니다.
 3. **새 전사**에 MP3, M4A, WAV 또는 MP4 파일을 넣고 **전사 시작**을 누릅니다. 여러 파일을 넣으면 순서대로 처리합니다.
